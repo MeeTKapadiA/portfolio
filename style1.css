@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Ubuntu:wght@500&display=swap');
+
+#offcanvasWithBothOptions { 
+    width: 25%;
+}
+
+@media only screen and (max-width: 500px) { 
+    #offcanvasWithBothOptions { 
+        width: 100%;
+    }
+}
+ 
+
+.topbar{ 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    width: 100%;
+    column-gap: 10%;
+    font-size: 26px;
+    justify-content: center; 
+    align-items: center;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 880px) {
+    .topbar{ 
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        width: 100%;
+        column-gap: 4%;
+        font-size: 22px;
+        justify-content: center; 
+        align-items: center;
+    
+    }
+}
+
+#greet , #C1 { 
+    font-family: Belanosima;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 50px; 
+    padding: auto;
+    font-weight: 700;
+    justify-content: left;
+}
+@media only screen and (max-width: 880px) {
+    #greet , #C1 { 
+        font-family: Belanosima;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-size: 39px; 
+        padding: auto;
+        font-weight: 700;
+        justify-content: left;
+    }
+}
+@media only screen and (min-width: 880px) and (max-width: 977px) {
+    #greet , #C1 { 
+        font-family: Belanosima;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-size: 45px; 
+        padding: auto;
+        font-weight: 700;
+        justify-content: left;
+    }
+}
+#content , #content1{ 
+    font-family: Roboto Slab; 
+    font-size: 30px;
+}
+@media only screen and (max-width: 880px) {
+    #content , #content1{ 
+        font-family: Roboto Slab; 
+        font-size: 19px;
+    }
+}
+
+/* custom style starts */    /*for about me and contact*/ 
+.head_custom { 
+    font-family: 'Ubuntu' ;
+    font-size: 2rem;
+}
+
+.para_custom { 
+    font-family: 'Crimson Text';
+    font-size: 1rem;
+}
+
+/*custom style ends */ 
